@@ -10,7 +10,7 @@ import java.util.List;
 import context.DBContext;
 import entity.Product;
 
-public class DAO {
+public class DAOProduct {
 	Connection conn = null;
 	PreparedStatement ps = null;
 	ResultSet rs = null;
